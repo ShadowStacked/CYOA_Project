@@ -11,5 +11,3 @@ combat logic
 script
 
 Character stats/abilities
-
-item
