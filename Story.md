@@ -14,10 +14,13 @@ Player will have to learn haki to defeat the boss
 ## Fruits
 
 Leopard Fruit (Zoan)
+* Strong ATT/DEF/SPEED
 
-Poison Fruit (Paramecia)
+Acid Fruit (Paramecia)
+* Increased ATT on abilities
 
 Salt Fruit (Logia)
+* 
 
 ### Weapons
 
