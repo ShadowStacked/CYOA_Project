@@ -1,1 +1,0 @@
-# Pokemon Combat Details
