@@ -1,5 +1,6 @@
 # General
 ## Base Character Class
+* Name
 * Hit_Points
 * Attack
 * Defense
