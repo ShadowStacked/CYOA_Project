@@ -1,9 +1,9 @@
 # General
 ## Base Character Class
-* Hit Points (HP)
+* Hit_Points
 * Attack
 * Defense
-* Special Attack (Sp. Atk.)
-* Special Defense (Sp. Def.)
+* Special_Attack
+* Special_Defense
 * Speed
 * Fruit_Ability
