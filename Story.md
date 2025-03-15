@@ -18,3 +18,11 @@ Leopard Fruit (Zoan)
 Poison Fruit (Paramecia)
 
 Salt Fruit (Logia)
+
+### Weapons
+
+Swords
+
+Guns
+
+Fists
