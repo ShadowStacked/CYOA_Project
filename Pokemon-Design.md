@@ -1,3 +1,4 @@
 # General
 ## Base Pokemon Class
-> sdtgagasgd
+* Hit Points (HP)
+Attack, Defense, Special Attack (Sp. Atk.), Special Defense (Sp. Def.), and Speed
