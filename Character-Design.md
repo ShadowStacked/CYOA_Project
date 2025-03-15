@@ -9,3 +9,5 @@
 * Speed: Int/Float
 * Fruit_Ability: String
 * Can_Harm_Logia_People: Boolean
+
+## Player Character
