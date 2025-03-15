@@ -10,6 +10,6 @@ combat logic
 
 script
 
-pokemon
+Character stats/abilities
 
 item
