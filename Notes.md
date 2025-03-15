@@ -4,3 +4,10 @@ combat will be based on pokemon's system
 
 3 enemies
 
+parts:
+
+combat logic
+
+script
+
+pokemon
