@@ -1,4 +1,4 @@
-Based on One Piece
+# Based on One Piece
 
 Can start as either a Marine or Pirate
 
@@ -9,4 +9,11 @@ Final boss will be a Logia user
 Player will first lose to this boss and will have to become stronger
 
 Player will have to learn haki to defeat the boss
+
+
+## Fruits
+
+Leopard Fruit
+
+Poison Fruit
 
