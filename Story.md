@@ -13,7 +13,8 @@ Player will have to learn haki to defeat the boss
 
 ## Fruits
 
-Leopard Fruit
+Leopard Fruit (Zoan)
 
-Poison Fruit
+Poison Fruit (Paramecia)
 
+Salt Fruit (Logia)
