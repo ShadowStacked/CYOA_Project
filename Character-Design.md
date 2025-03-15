@@ -1,5 +1,5 @@
 # General
-## Base Pokemon Class
+## Base Character Class
 * Hit Points (HP)
 * Attack
 * Defense
