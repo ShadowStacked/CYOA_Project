@@ -1,7 +1,4 @@
 # General
-
-***
-
 ## Base Character Class
 * Name: String
 * Hit_Points: Int/Float
