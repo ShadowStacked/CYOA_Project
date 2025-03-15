@@ -1,1 +1,1 @@
-# This page is for design of general pokemon logic
+# General Pokemon Logic
