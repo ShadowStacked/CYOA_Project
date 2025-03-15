@@ -8,3 +8,4 @@
 * Special_Defense
 * Speed
 * Fruit_Ability
+* Can_Harm_Logia_People
