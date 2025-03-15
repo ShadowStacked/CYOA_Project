@@ -6,4 +6,4 @@
 * Special Attack (Sp. Atk.)
 * Special Defense (Sp. Def.)
 * Speed
-* Ability
+* Fruit_Ability
