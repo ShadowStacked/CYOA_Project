@@ -7,3 +7,4 @@
 * Special Defense (Sp. Def.)
 * Speed
 * Type
+* Ability
