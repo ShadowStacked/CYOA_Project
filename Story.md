@@ -25,7 +25,7 @@ Salt Fruit (Logia/Boss Fruit)
 * Base = Increased ATT/SP ATT/DEF/SP DEFF
 * Allows the user's body to turn into salt. Allows the user to generate salt from their bodies.
 
-### Weapons
+## Weapons
 
 Swords
 
@@ -33,7 +33,7 @@ Guns
 
 Fists
 
-#### Moves
+## Moves
 
 **Leopard Fruit**
 
