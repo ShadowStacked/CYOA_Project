@@ -34,3 +34,21 @@ Guns
 Fists
 
 #### Moves
+
+**Leopard**
+Swipe (ATT)- Claw attack
+
+Bite (ATT)- Bite attack
+
+Pounce (ATT)- Attack with increased speed
+
+**Acid**
+Acid Gun(SP ATT)- Shoots Acid from user's hand
+
+Coat Weapon(SP ATT)- Coats weapon with acid, adding SP ATT on top of regular ATT
+
+Acid Sweat(SP ATT)- Secretes Acid from the user's body, damaging those that come into contact with the user's skin
+
+**Salt**
+Salt Armor(DEF/SP DEF)- Creates a thin coat of armor, increasing DEF and SP DEF
+
