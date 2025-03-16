@@ -6,8 +6,7 @@
 * Defense: Int/Float
 * Speed: Int/Float
 * Fruit_Ability: String
-* Has_Haki: Boolean
-* Armor: Int/Float (added to base health when armament haki is active)
+* Haki_Points: Int
 
 ## Player Character
 * Derived from base character class
