@@ -9,8 +9,8 @@
 
 ## Player Character
 * Derived from base character class
-* Can_Harm_Logia_People: Boolean
-* 
+* Has_Haki: Boolean
+* Armor: Int/Float (added to base health when armament haki is active)
 
 ## Final Boss 
 ### (logia user: while transformed is true, each successful hit makes them 20% less invulnerable (100/5 => head, legs, arms). This should simulate hitting a body part making it revert to normal form.)
