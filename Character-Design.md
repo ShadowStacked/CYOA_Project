@@ -11,7 +11,12 @@
 ## Player Character
 * Derived from base character class
 
-## Normal Enemy 1
+## Normal Enemy 1 
+### (Marine in 1st fight of pirate intro)
+* Derived from base character class
+
+## Normal Enemy 2
+### (Pirate in 1st fight of marine intro)
 * Derived from base character class
 
 ## Final Boss 
