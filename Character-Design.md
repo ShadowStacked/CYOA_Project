@@ -9,5 +9,9 @@
 * Fruit_Ability: String
 
 ## Player Character
-* All base character properties
+* Derived from base character class
 * Can_Harm_Logia_People: Boolean
+
+## Final Boss
+* Derived from base character class
+* 
