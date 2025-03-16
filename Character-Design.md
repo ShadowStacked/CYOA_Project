@@ -11,6 +11,9 @@
 ## Player Character
 * Derived from base character class
 
+## Normal Enemy 1
+* Derived from base character class
+
 ## Final Boss 
 ### (logia user: while transformed is true, they can only be hurt if the player has haki points)
 * Derived from base character class
