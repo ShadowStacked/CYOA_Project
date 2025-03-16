@@ -14,4 +14,5 @@
 
 ## Final Boss
 * Derived from base character class
-* 
+* Logia user
+*
