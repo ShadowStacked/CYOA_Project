@@ -2,11 +2,11 @@
 * Name: String
 * Base_Health: Int/Float
 * Base_Attack: Int/Float
-* Special_Attack: Int/Float (fruit attack, 0 if character uses leopard fruit)
+* Special_Attack: Int/Float (fruit attack, 0 if character has leopard fruit)
 * Defense: Int/Float
 * Speed: Int/Float
-* Fruit_Ability: String
-* Haki_Points: Int
+* Fruit_Ability: String (leopard, acid, or salt) 
+* Haki_Points: Int (1 - 10)
 
 ## Player Character
 * Derived from base character class
