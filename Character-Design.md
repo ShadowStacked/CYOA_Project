@@ -1,7 +1,7 @@
 ## Base Character Class
 * Name: String
-* Health: Int/Float
-* Attack: Int/Float
+* Base_Health: Int/Float
+* Base_Attack: Int/Float
 * Fruit_Ability_Attack: Int/Float
 * Defense: Int/Float
 * Speed: Int/Float
