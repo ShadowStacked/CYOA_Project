@@ -7,7 +7,7 @@
 * Speed: Int/Float
 * Fruit_Ability: String (leopard, acid, or salt) 
 * Haki_Points: Int (1 - 10)
-* Weapon: Weapon class (will take an enum of either spear, axe, sword) 
+* Weapon: Weapon class (will take an enum of either sword, gun, or fists) 
 
 ## Player Character
 * Derived from base character class
