@@ -22,7 +22,7 @@ Acid Fruit (Paramecia/Player Fruit)
 * Allows the user to secret acid from their bodies.
 
 Salt Fruit (Logia/Boss Fruit)
-* Base = Increased ATT/SP ATT/DEF/SP DEFF
+* Base = Increased SP ATT/DEF/SP DEFF
 * Allows the user's body to turn into salt. Allows the user to generate salt from their bodies.
 
 ## Weapons
