@@ -2,7 +2,7 @@
 * Name: String
 * Base_Health: Int/Float
 * Base_Attack: Int/Float
-* Special_Attack: Int/Float
+* Special_Attack: Int/Float (fruit attack, 0 if character uses leopard fruit)
 * Defense: Int/Float
 * Speed: Int/Float
 * Fruit_Ability: String
