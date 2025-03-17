@@ -1,6 +1,6 @@
 import unittest
 
-class Test_test_1(unittest.TestCase):
+class Test_test_game(unittest.TestCase):
     def test_A(self):
         assert 1 + 1 == 2
 
