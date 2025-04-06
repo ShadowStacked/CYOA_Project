@@ -1,8 +1,8 @@
-from Models import WeaponType
-
+from GlobalImports import *
+from Models.WeaponType import WeaponType
 
 class Character:
-    def __init__(self, name: str, base_health: float, base_attack: float, special_attack: float, defense: float, speed: int, fruit_ability: str, haki_points: int, weapon: WeaponType):
+    def __init__(self, name: str, base_health: float, base_attack: float, special_attack: float, defense: float, speed: int, fruit_ability: str, haki_points: int, weapon: WeaponType, hasHaki: bool):
         self.name = name
         self.base_health = base_health
         self.base_attack = base_attack
@@ -12,3 +12,5 @@ class Character:
         self.fruit_ability = fruit_ability
         self.haki_points = haki_points
         self.weapon = weapon
+        self.hasHaki = False
+        self.isLogiaUser = False
