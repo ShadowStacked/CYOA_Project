@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>CYOA_Project</Name>
     <RootNamespace>CYOA_Project</RootNamespace>
+    <TestFramework>unittest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>

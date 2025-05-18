@@ -1,9 +1,15 @@
-from GlobalImports import *
+from Models.Character import * 
+from Models.GameOver_Restart_Continue import * 
+import Functions.Choices as Choices
+from Functions.RunCombat import *
+from CodedTests import *
+import os
 
 def runCombat(enemies: list[Character], player: Character, lose_Game_Over_Or_Restart: GameOver_Restart_Continue = GameOver_Restart_Continue.GAME_OVER, unlock_Haki_This_Fight: bool = False):
 
-    # region copy variables for restart if needed
+    # region copy variables for restart if needed    
     enemies_ForRestart = enemies
+    player_ForRestart = player
     lose_Game_Over_Or_Restart_ForRestart= lose_Game_Over_Or_Restart
     unlock_Haki_This_Fight_ForRestart = unlock_Haki_This_Fight
     # endregion
@@ -17,12 +23,12 @@ def runCombat(enemies: list[Character], player: Character, lose_Game_Over_Or_Res
     while player.base_health > 0 and len(combatants_list) > 1:              
         
         for combatant in combatants_list:
-
+            
             # if combatant is player, run player choice function and get enemy to act on if player choses attack or special attack, if enemy is defeated remove from combatants list:
             if combatant.name == player.name:
                 enemyToActOn = Choices.playerChoice(player, enemies)
                 if enemyToActOn != None:
-                    enemyToActOn = enemies[enemyToActOn]
+                    enemyToActOn = enemies[enemies.index(enemyToActOn)]
                     combatants_list.remove(enemyToActOn) if enemyToActOn.base_health <= 0 else None
                     
             else:
@@ -49,4 +55,4 @@ def runCombat(enemies: list[Character], player: Character, lose_Game_Over_Or_Res
             elif combatant.name == player.name and player.base_health <= 0 and endState == GameOver_Restart_Continue.RESTART:
                 print(f"{player.name} has been defeated! Restarting fight...")
                 # restart fight
-                runCombat(enemies_ForRestart, player_ForRestart, player_Health_To_End_ForRestart, lose_Game_Over_Or_Restart_ForRestart, unlock_Haki_This_Fight_ForRestart)
+                runCombat(enemies_ForRestart, player_ForRestart, lose_Game_Over_Or_Restart_ForRestart, unlock_Haki_This_Fight_ForRestart)
