@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>CYOA_Project</Name>
     <RootNamespace>CYOA_Project</RootNamespace>
+    <TestFramework>unittest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,15 +22,39 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CodedTests\MainTest.py" />
     <Compile Include="Main.py" />
     <Compile Include="Models\Character.py" />
+    <Compile Include="Functions\Choices.py" />
+    <Compile Include="Functions\RunCombat.py" />
+    <Compile Include="Models\GameOver_Restart_Continue.py" />
+    <Compile Include="Models\Fruit.py" />
     <Compile Include="Models\WeaponType.py" />
-    <Compile Include="test_1.py">
+    <Compile Include="GlobalImports.py" />
+    <Compile Include="Script\script.py" />
+    <Compile Include="Script\test_script.py" />
+    <Compile Include="UnitTests\test_choices.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\test_game.py" />
+    <Compile Include="UnitTests\test_RunCombat.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include=".github\" />
+    <Folder Include=".github\workflows\" />
     <Folder Include="Models\" />
+    <Folder Include="Functions\" />
+    <Folder Include="CodedTests\" />
+    <Folder Include="Script\" />
+    <Folder Include="UnitTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".github\workflows\python-app.yml" />
+    <Content Include=".gitignore" />
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
