@@ -1,5 +1,4 @@
 import unittest
-from GlobalImports import *
 
 class Test_test_game(unittest.TestCase):
     def test_A(self):
